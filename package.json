@@ -1,18 +1,18 @@
 {
-  "name": "ts-next-tailwind-template",
+  "name": "homepage",
   "version": "1.0.0",
   "private": "true",
   "description": "Ultimate Front-end Template made using NextJs, TailwindCSS, and Typescript",
   "author": {
-    "email": "crisemcr@gmail.com",
-    "name": "Cristian Crețu",
-    "url": "https://cretu.dev"
+    "email": "einfachalex",
+    "name": "EinfachAlex",
+    "url": "https://eifachalex.netv"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cristicretu/ts-next-tailwind-template/issues"
+    "url":"
   },
-  "homepage": "https://template.cretu.dev",
+  "homepage": "",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -47,6 +47,9 @@
     "prettier": "^2.7.1",
     "tailwindcss": "^3.1.8",
     "typescript": "^4.8.3"
+    "huggingface_hub": "^latest"
+    "@huggingface/transformers": "^latest"
+
   },
   "lint-staged": {
     "*.{tsx},*.{ts},*.{mdx}": ["eslint --fix"]
