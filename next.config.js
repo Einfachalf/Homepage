@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
   swcMinify: true,
-}
-
-module.exports = nextConfig
+  env: {
+    HUGGINGFACE_API_TOKEN: process.env.HUGGINGFACE_API_TOKEN,
+    REPLICATE_API_TOKEN: process.env.REPLICATE_API_TOKEN,
+    OPENAI_API_TOKEN: process.env.OPENAI_API_TOKEN
+  }
+};
